@@ -1,1 +1,1 @@
-# workshop8
+In this project, I will be creating 4 webpages with semantics, images, a navbar, and another side bar with external links. The pages are listed as the following; home, contact, about, portfolio. The home page will be a photo of me alongside a basic introduction. The about page will contain further information about who I am and who I want to become. The contact page includes methods to get ahold of me. The portfolio page includes my projects I have done so far and a brief summary of how the project went.
