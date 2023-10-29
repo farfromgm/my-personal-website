@@ -7,27 +7,60 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html">
-      <header>Chase's Personal Vault</header>
-    </a>
-    <nav>
-      <a href="index.html"> Home </a>
+    <div class="container2">
+      <header>
+        <a href="index.html">Chase's Personal Vault</a>
+      </header>
 
-      <a href="about.html"> About </a>
+      <nav class="navbar">
+        <div class="div1">
+          <a href="index.html"> Home </a>
+        </div>
 
-      <a href="portfolio.html"> Portfolio </a>
+        <div class="div1">
+          <a href="about.html"> About </a>
+        </div>
 
-      <a href="contact.html"> Contact Me </a>
-    </nav>
-    <section class="section3">
+        <div class="div1">
+          <a href="portfolio.html"> Portfolio </a>
+        </div>
+
+        <div class="div1">
+          <a href="contact.html"> Contact Me </a>
+        </div>
+      </nav>
+    </div>
+
+    <!-- flex container -->
+    <div class="container3">
       <article class="article3">
-        <h3>Email</h3>
-        <!-- I will be using href=mailto:(my email) in order to create a working email link that directs the user to their email client
+        <section class="section3">
+          <h3>Email</h3>
+
+          <!-- I will be using href=mailto:(my email) in order to create a working email link that directs the user to their email client
         with the email address prefilled -->
-        <p>
-          <a href="mailto:chasedeppards@gmail.com">chasedeppards@gmail.com</a>
-        </p>
+          <p>
+            <a href="mailto:chasedeppards@gmail.com">chasedeppards@gmail.com</a>
+          </p>
+        </section>
       </article>
-    </section>
+
+      <article class="sidebar">
+        <section class="sidebar-section">
+          <h3>Learning Resources Used</h3>
+          <p>
+            <a href="https://stackoverflow.com/questions" class="links"
+              >Stack Overflow</a
+            >
+          </p>
+          <p>
+            <a href="https://developer.mozilla.org/en-US/" class="links">MDN</a>
+          </p>
+          <p>
+            <a href="https://web.dev/" class="links">Web Dev</a>
+          </p>
+        </section>
+      </article>
+    </div>
   </body>
 </html>

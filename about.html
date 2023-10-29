@@ -7,32 +7,67 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a href="index.html">
-      <header>Chase's Personal Vault</header>
-    </a>
-    <nav>
-      <a href="index.html"> Home </a>
+    <div class="container2">
+      
+      <header>
+        <a href="index.html">Chase's Personal Vault</a>
+      </header>
 
-      <a href="about.html"> About </a>
+      <nav class="navbar">
+        <div class="div1">
+          <a href="index.html"> Home </a>
+        </div>
 
-      <a href="portfolio.html"> Portfolio </a>
+        <div class="div1">
+          <a href="about.html"> About </a>
+        </div>
 
-      <a href="contact.html"> Contact Me </a>
-    </nav>
+        <div class="div1">
+          <a href="portfolio.html"> Portfolio </a>
+        </div>
 
-    <section class="section2">
+        <div class="div1">
+          <a href="contact.html"> Contact Me </a>
+        </div>
+      
+      </nav>
+    </div>
+
+    <!-- flex container sidebar and main content -->
+    <div class="container2">
       <article class="article1">
-        <h2>About</h2>
-        <p>
-          This is my personal website and is a great tool of creation for the
-          purpose of learning new web development skills alongside applying the
-          practical knowledge I already have. So far I learned about flexbox, a
-          little bit of javascript, and several concepts in CSS. I will be
-          combining all this knowledge and applying it to the creation and
-          progressive development of this website. Stay tuned for further
-          changes and additions in the future.
-        </p>
+        <section class="section2">
+          <h2>About</h2>
+          <p>
+            This is my personal website and is a great tool of creation for the
+            purpose of learning new web development skills alongside applying
+            the practical knowledge I already have. So far I learned about
+            flexbox, a little bit of javascript, and several concepts in CSS. I
+            will be combining all this knowledge and applying it to the creation
+            and progressive development of this website. Stay tuned for further
+            changes and additions in the future.
+          </p>
+        </section>
       </article>
-    </section>
+      
+      <article class="sidebar">
+        <section class="sidebar-section">
+          <h3>Learning Resources Used</h3>
+          <p>
+            <a href="https://stackoverflow.com/questions" class="links"
+              >Stack Overflow</a
+            >
+          </p>
+          <p>
+            <a href="https://developer.mozilla.org/en-US/" class="links">MDN</a>
+          </p>
+          <p>
+            <a href="https://web.dev/" class="links">Web Dev</a>
+          </p>
+        </section>
+
+        </section>
+      </article>
+    </div>
   </body>
 </html>
