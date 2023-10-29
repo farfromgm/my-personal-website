@@ -9,18 +9,30 @@
   <body>
     <!-- I will be adding a header to the personal website and will create a nav bar with the nav element placed below the header tag. 
     I will then use anchor tag to add all the nav bar links and will later style them with CSS -->
-    <a href="index.html">
-      <header>Chase's Personal Vault</header>
-    </a>
-    <nav>
-      <a href="index.html"> Home </a>
+    <div class="container2">
+      < href="index.html">
+      <header>
+        <a href="index.html">Chase's Personal Vault</a>
+      </header>
 
-      <a href="about.html"> About </a>
+      <nav class="navbar">
+        <div class="div1">
+          <a href="index.html"> Home </a>
+        </div>
 
-      <a href="portfolio.html"> Portfolio </a>
+        <div class="div1">
+          <a href="about.html"> About </a>
+        </div>
 
-      <a href="contact.html"> Contact Me </a>
-    </nav>
+        <div class="div1">
+          <a href="portfolio.html"> Portfolio </a>
+        </div>
+
+        <div class="div1">
+          <a href="contact.html"> Contact Me </a>
+        </div>
+      </nav>
+    </div>
     <!-- On this commit, I will be creating the following semantic elements 
         within the home page: main, article, 2 sections with classes for styling, 1 for an image, and 1 for the 
     text content -->
@@ -38,6 +50,25 @@
               this is a creation used as a tool to apply the knowledge I have in
               html, CSS, and Javascript and implement them into the making of
               this website.
+            </p>
+          </section>
+        </article>
+
+        <article class="sidebar">
+          <section class="sidebar-section">
+            <h3>Learning Resources Used</h3>
+            <p>
+              <a href="https://stackoverflow.com/questions" class="links"
+                >Stack Overflow</a
+              >
+            </p>
+            <p>
+              <a href="https://developer.mozilla.org/en-US/" class="links"
+                >MDN</a
+              >
+            </p>
+            <p>
+              <a href="https://web.dev/" class="links">Web Dev</a>
             </p>
           </section>
         </article>
