@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(223, 223, 252);
+  padding: 0;
+}
+/* this is the flexbox parent of header and main */
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* this is the flexbox parent of article and sidebar f */
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: none;
+  justify-content: center;
+}
+
+.home-text-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-text-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-text-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-text-body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* this is the parent flexbox of an image section, 
+section1 which is the main text, and the footer */
+article {
+  width: 80vw;
+  background-color: orange;
+  /* height: 37vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* main text */
+.section1 {
+  background-color: orange;
+  width: 80vw;
+  height: 75vh;
+}
+/* footer */
+footer {
+  height: 8vh;
+  width: 80vw;
+  background-color: black;
+}
+
+/* sidebar */
+aside {
+  width: 20vw;
+  height: 96vh;
+  background-image: radial-gradient(rgb(92, 92, 92), rgb(202, 136, 12));
+}
+
+/* header */
+header {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  gap: 200px;
+  /* padding: 0.5vh 10%; */
+}
+
+/* height for header is 10vh.  
+  height for aside is 100vh
+  height for main content is 80vh
+  height for footer is 10vh */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+li,
+a {
+  color: rgb(213, 213, 213);
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-links li {
+  display: inline-block;
+}
+
+a:hover {
+  color: white;
+}
+
+.section1 {
+  font-size: 32px;
+  height: 46vh;
+}
+
+.section-contact {
+  height: 80vh;
+}
+
+.image-section {
+  /* height: 50vh; */
+}
+
+.section2 {
+  height: 88vh;
+}
