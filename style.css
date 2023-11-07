@@ -21,6 +21,7 @@ main {
   justify-content: center;
   margin: 0;
   padding: 0;
+  width: ;
 }
 article {
   width: 80%;
@@ -39,7 +40,7 @@ footer {
 
 /* sidebar */
 aside {
-  width: 20vw;
+  width: 25vw;
   flex-basis: 95vh;
   flex-grow: 1;
   background-image: radial-gradient(rgb(92, 92, 92), rgb(202, 136, 12));
@@ -86,11 +87,11 @@ a {
 footer {
   display: flex;
   flex-direction: row;
-  height: 10vh;
+  height: 15vh;
 }
-.navbar ul {
+/* .navbar ul {
   text-wrap: nowrap;
-}
+} */
 .navbar li a {
   display: block;
   padding: 1rem;
@@ -107,6 +108,7 @@ footer {
   flex-basis: 100%;
   flex-grow: 1;
   margin: 0;
+  width: 100%;
 }
 .home-text-body {
   display: flex;
@@ -161,6 +163,7 @@ section1 which is the main text, and the footer */
 
 .section-contact {
   height: 80vh;
+  display: inline-block;
 }
 
 /*  .image-section {
